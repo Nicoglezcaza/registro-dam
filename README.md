@@ -1,14 +1,14 @@
-# 📋 Registro de Alumno DAM
+# Registro de Alumno DAM
 
 Aplicación web desarrollada con React y Vite que permite registrar alumnos del ciclo formativo DAM (Desarrollo de Aplicaciones Multiplataforma). El formulario recoge el nombre, email y curso del alumno, genera un objeto JSON con esos datos y los valida en tiempo real aplicando reglas de negocio estrictas definidas con la librería Zod. Si los datos son correctos, se muestra el JSON resultante; si no lo son, se informa al usuario del error concreto detectado.
 
-## 🛠️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - React
 - Vite
 - Zod
 
-## 🚀 Despliegue en local
+## Despliegue en local
 
 ​```bash
 # 1. Clona el repositorio
@@ -24,7 +24,7 @@ npm install
 npm run dev
 ​```
 
-## 📦 Diccionario de datos
+## Diccionario de datos
 
 | Nombre del Campo | Tipo de Dato | Reglas de Validación |
 |-----------------|--------------|----------------------|
